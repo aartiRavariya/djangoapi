@@ -6,4 +6,4 @@ class CourseSerializer(serializers.HyperlinkedModelSerializer): # HyperlinkedMod
         model = Course
         fields = ('id', 'url', 'name', 'language', 'price')
 
-        #translates our data from to and from json (takes our data from db and serializes to json which is most used to create pi and to send around the internet)
+# Serializer translates our data from to and from json (takes our data from db and serializes to json which is most used to create pi and to send around the internet)
